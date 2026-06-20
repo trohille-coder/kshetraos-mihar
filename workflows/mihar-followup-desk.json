@@ -1,0 +1,10 @@
+{
+  "name": "Mihar Follow-Up Desk",
+  "description": "Automated farmer loan follow-up workflow — KshetraOS",
+  "version": "0.1.0",
+  "status": "in-progress",
+  "nodes": [],
+  "connections": {},
+  "settings": {},
+  "note": "Export from n8n and replace this placeholder with the full workflow JSON"
+}
