@@ -22,6 +22,7 @@
 | 16 | `notes` | Text | Free-text notes from field officer |
 
 ## Workflow Trigger Logic
+
 - Rows where `repayment_status` = `Pending` or `Overdue`
 - AND `due_date` is within 3 days OR already passed
 - AND `whatsapp_sent` = FALSE
