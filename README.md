@@ -8,12 +8,14 @@
 **Mihar Follow-Up Desk** is its first module — an n8n automation workflow that replaces manual loan follow-up calls with intelligent, WhatsApp-first outreach.
 
 ## Problem
+
 - Rural loan officers make 50–100 manual follow-up calls per day
 - 60–70% of calls go unanswered
 - No structured tracking = loans fall through the cracks
 - Farmers miss repayment windows due to lack of timely reminders
 
 ## Solution
+
 - n8n workflow auto-triggers follow-up messages based on loan due dates
 - WhatsApp-first communication (farmers already use it)
 - Google Sheets as CRM backend (no new software for field officers)
@@ -21,7 +23,7 @@
 
 ## Repository Structure
 
-```
+```text
 kshetraos-mihar/
 ├── workflows/
 │   └── mihar-followup-desk.json     ← n8n workflow export
@@ -33,6 +35,7 @@ kshetraos-mihar/
 ```
 
 ## Tech Stack
+
 | Layer | Tool |
 |---|---|
 | Automation Engine | n8n (self-hosted) |
@@ -42,7 +45,9 @@ kshetraos-mihar/
 | AI Logic Layer | Perplexity AI |
 
 ## Status
+
 🚧 Active build — Hub71 application in progress
 
 ## Builder
+
 **R T** — KshetraOS, India
